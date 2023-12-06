@@ -1,0 +1,845 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    overflow-x: hidden;
+}
+
+
+.navbar{
+    display: flex;
+    background-color: #030303;
+    height: 60px;
+    top: 0;
+    width: 100%; 
+    z-index: 99;
+    align-items: center;
+    
+
+
+}
+.navbar li {
+    display: flex;
+list-style:  none;
+margin: 0px 50px;
+padding: 5px 10px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+
+}
+.navbar ul{
+    display: flex;
+    padding: 10px 20px;
+}
+a{
+text-decoration: none;
+padding: 5px ;
+color: white; 
+
+
+}
+
+.search{
+border: 3px solid rebeccapurple;
+
+margin: 11px 20px 10px 700px;
+height: 28px;
+width: 200px;
+border-radius: 15px;
+padding: 10px 10px;
+
+}
+li:hover{
+background-color: white;
+border-radius: 20px;
+
+
+
+
+}
+a:hover{
+color: #0a0909;
+}
+/* NAV END  */
+
+/* BARS CODE  */
+.you{
+    color: #fff;
+    font-size:25px;
+    position: absolute;
+    left: 20px;
+    display: none;
+    
+
+
+}
+#check{
+    display: none;
+    
+}
+/* BARS END */
+.heading{
+
+height:max-content;
+width: 100%;
+font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+letter-spacing: 5px;
+font-size: 70px;
+text-shadow: 5px 5px 2px rgb(17, 92, 123);
+margin: 70px auto;
+
+
+}
+/* home  css start */
+.outer-div{
+        height: 450px;
+     width: 80%;
+     margin: 0 auto;
+     border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+
+}
+.inner-div{
+height: 380px;
+width: 250px;
+border-radius: 20px;
+
+margin: 50px 0px 0px 0px;
+
+background-color: white;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+color: rgba(123, 24, 101, 0.687);
+margin: 0px 0px 30px 0px;
+
+}
+img{
+height: 220px;
+width: 190px;
+border-radius:  20px;
+margin: 0px 0px 30px 0px;
+border-radius: 20px;
+}
+button {
+height: 30px;
+width: 200px;
+margin: 0px 0px 5px 0px;
+border-radius: 20px;
+
+}
+button:hover{
+background:cadetblue;
+color: #080808;
+}
+.img{
+border: 2px solid;
+box-shadow: 2px 2px 5px 5px black, 2px 2px 5px 5px blue;
+border-radius: 20px;
+background-image: url(https://cdn.shopify.com/s/files/1/0014/0342/0766/collections/SHIRTS_1728x.jpg?v=1540631501);
+
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+  
+  height: 300px;
+  width: 100%;
+  margin: 50px auto;
+}
+.trend{
+height:max-content;
+width: 100%;
+font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+letter-spacing: 5px;
+font-size: 70px;
+text-shadow: 5px 5px 2px rgb(216, 166, 30);
+margin: 100px 0px 0px 0px;
+}
+.outer2{
+
+height: 400px;
+width: 90%;
+display: flex;
+margin: 0 auto;
+align-items: flex-start;
+justify-content: center;
+ gap: 120px;
+
+}
+.inner2{
+
+height: 250px;
+width:  250px;
+border-radius: 50%;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+    background-image: url(https://th.bing.com/th/id/OIP.y_ESh9LXwx1h-JNl6jD6-QHaHa?pid=ImgDet&rs=1);
+    background-size: 248px;
+    background-repeat: no-repeat;
+
+
+}
+.button-shoes{
+margin: 310px 0px 0px 0px;
+height: px;
+width: 130px;
+
+}
+.inner3{
+
+height: 250px;
+width:  250px;
+border-radius: 50%;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+    background-image: url(https://th.bing.com/th/id/OIP.osXbQ2YMGxrMoBSbkFOsJwHaHa?pid=ImgDet&rs=1);
+    background-size: 248px;
+    background-repeat: no-repeat;
+
+
+}
+.inner4{
+
+height: 250px;
+width:  250px;
+border-radius: 50%;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+    background-image: url(https://th.bing.com/th/id/OIP.6T6Xg0lrs8b1VsqZul3uFAHaHa?pid=ImgDet&w=800&h=800&rs=1);
+    background-size: 248px;
+    background-repeat: no-repeat;
+
+
+}
+.inner5{
+
+height: 250px;
+width:  250px;
+border-radius: 50%;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+    background-image: url(https://th.bing.com/th/id/OIP.VqQ6E8XXEKHYquzpRdNYwgHaHa?pid=ImgDet&w=640&h=640&rs=1);
+    background-size: 248px;
+    background-repeat: no-repeat;
+
+
+}
+.inner6{
+
+height: 250px;
+width:  250px;
+border-radius: 50%;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+    background-image: url(https://i.pinimg.com/originals/b0/35/d1/b035d19a84ed3efc67783bcbb1b07d39.jpg);
+    background-size: 248px;
+    background-repeat: no-repeat;
+
+
+}
+.inner7{
+
+height: 250px;
+width:  250px;
+border-radius: 50%;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+    background-image: url(https://th.bing.com/th/id/OIP.BpKdAYn45EDeWqsUQlAaMAHaHa?pid=ImgDet&rs=1);
+    background-size: 248px;
+    background-repeat: no-repeat;
+
+
+}
+.shoes{
+
+height:max-content;
+
+font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+letter-spacing: 5px;
+font-size: 70px;
+text-shadow: 5px 5px 2px rgb(59, 127, 64);
+text-align: center;
+
+}
+.main-div{
+height: max-content;
+width: 100%;
+margin-top: 100px;
+
+
+
+.ser {
+    height: max-content;
+    
+    display: flex;
+}
+}
+.img-service{
+height: 350px;
+width: 50%;
+background-image: url(https://coolmaterial.com/wp-content/uploads/2016/06/Ministry-of-supply-wear-this-update-900x540.jpg);
+background-repeat: no-repeat;   
+background-size: contain;
+}
+.list{
+    height: 350;
+    width: 50%;
+
+font-family: Comic Sans MS;
+
+
+padding-top: 20px;
+}
+
+.ser2{
+    height: max-content;
+    
+    display: flex;
+    padding-top: 100px;
+}
+.img-service1{
+height: 350px;
+width: 50%;
+background-image: url(https://wallpaperaccess.com/full/2489629.jpg);
+background-repeat: no-repeat;
+background-size: contain ;
+
+}
+.list1{
+font-family: Comic Sans MS;
+
+}
+
+.inner-search{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+margin-top: 50px;
+background-image: url(https://s3-eu-west-1.amazonaws.com/images.linnlive.com/af94affe4842291e0def25292a7f510e/74084610-bb3b-4140-a32f-9628e3692405.jpg);
+background-size: 190px;
+
+}
+.inner-search1{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+ margin-top: 50px;
+ background-size: 250px;
+ background-image: url(https://th.bing.com/th/id/OIP.sdyBwkl1lrVNAw_86YHvbQHaFj?pid=ImgDet&rs=1);
+}
+.inner-search2{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+ margin-top: 50px;
+ background-size: 220px;
+ background-image: url(https://cdna.lystit.com/photos/puma/ca996099/puma-Puma-Royal-Essentials-Mens-Tee.jpeg);
+}
+.inner-search3{
+
+height: 200px;
+width: 200px;
+border-radius: 50%;
+background-image: url(https://th.bing.com/th/id/OIP.DW1tgnLRwBTjwvmUGNLZXgHaJW?pid=ImgDet&rs=1);
+background-size: 190px;
+ margin-top: 50px;
+}
+.outer3{
+
+display: flex;
+margin: 0 auto;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 120px;
+    height: 400px;
+
+
+}
+.button-top{
+margin-top: 250px;
+
+}
+.topsearch{
+margin: 100px 0px 0px 50px;
+font-size: 45px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-shadow: 2px 2px 5px red;
+}
+#contact{
+
+background-image: url(https://cdn.pixabay.com/photo/2018/03/12/22/15/clothing-3221103_1280.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+form{
+height: 530px;
+width: 300px;
+margin: 100px 0px 0px 100px;
+border-radius: 20px;
+box-shadow: 2px 2px 10px  5px rgb(11, 79, 82);
+margin-top: 200px;
+
+
+}
+.head-contact{
+
+margin: 50px auto;
+
+text-align: center;
+font-size: 70px;
+font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-shadow: 5px 5px 10px rgb(185, 62, 152);
+padding: 100px;
+
+
+}
+label{
+display: block;
+font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ padding: 5px;
+ margin-left: 35px;
+ margin-top: 30px;
+ padding: 13px;
+}
+input{
+border-radius: 20px;
+height: 25px;
+width: 200px;
+margin-left: 35px;
+border-color: grey;
+
+}
+#submit{
+margin-top: 40px;
+height: 30px;
+font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#submit:hover{
+background-color: rgb(23, 105, 105);
+box-shadow: 1px 1px 3px 2px rgb(137, 202, 219);
+font-weight: bold;
+
+}
+.extra{
+height: 200px;
+width: 2px;
+}
+input:focus{
+border: none;
+outline: none;
+}
+.p-about{
+
+height: 210px;
+width: 80%;
+
+
+margin-top: 20px;
+
+
+
+}
+.pabout{
+
+
+color :white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+word-spacing: 3px;
+margin: 0px 0px 0px 250px ;
+}
+
+
+
+
+
+.big{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+
+}
+.outr{
+    height: max-content;
+    width: 300px;
+    
+    
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/15/18/50/isolated-3021541_1280.png);
+    background-size: cover;
+}
+.innr{
+    height: 400px;
+    width: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2019/11/03/23/27/black-businessman-4599846_640.jpg);
+    background-size: 100px;
+    perspective: 300px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    visibility: hidden;
+
+   
+}
+.outr:hover .innr{
+    visibility: visible;
+    cursor: pointer;
+    background-size: 400px;
+    transition: all 5s ease;
+    transform: rotateZ(1440deg);
+    
+   
+
+    
+}
+
+.outr :hover ,.innr p{
+    text-align: center;
+    
+
+    
+}
+.outr :hover ,.innr h1{
+    text-align: center;
+    padding-top: 80px ;
+}
+.innr p , .innr h1{ 
+    color: white;
+    font-weight: bold;
+    
+}
+.outr2{
+    height: max-content;
+    width: 300px;
+    
+    
+   background-image: url(https://www.freepnglogos.com/uploads/jacket-png/jacket-denim-solutions-website-launching-program-denim-solutions-ltd-24.png);
+    background-size: cover;
+}
+.innr2{
+    height: 400px;
+    width: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2021/10/14/13/37/man-6709133_640.jpg);
+    background-size: 100px;
+    perspective: 300px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    visibility: hidden;
+
+
+}
+.outr2:hover .innr2{
+    visibility: visible;
+    cursor: pointer;
+    background-size: cover;
+    transition: all 5s ease;
+    transform: rotateY(1440deg);
+    
+   
+
+    
+}
+.outr2 :hover ,.innr2 p{
+    text-align: center;
+    
+
+    
+}
+.outr2 :hover ,.innr2 h1{
+    text-align: center;
+    padding-top: 80px ;
+}
+.innr2 p , .innr2 h1{ 
+    color: white;
+    font-weight: bold;
+    
+}
+.abt{
+    height: max-content;
+    width: 35%;
+    margin: 100px auto;
+    text-align: center;
+    background-color: bisque;
+    padding: 30px 30px;
+    border-radius: 30px 0px 30px 0px ;
+
+}
+
+/* footer */
+/* footer */
+.footer{
+    height: max-content;
+    width: 100%;
+    background-color: rgb(68, 87, 184);
+}
+
+.ame h1{
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.li{
+    border-bottom: 2px solid white;
+}
+.uter3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nner3{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.nner3 h1 , .inner4 h1{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.nner3 p {
+    background-color: #fff;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    font-style: 15px;
+    
+
+}
+
+.nner3 h6{
+    font-size: 15px;
+    padding: 10px 0px ;
+}
+
+/* footer last line */
+
+.ast{
+    padding-top: 10px;
+    height: 40px;
+    
+    
+    display: flex;
+    gap: 50%;
+    padding-left: 100px;
+    background-color: rgb(5, 5, 74);
+}
+    .ast p{
+        color: #fff;
+    }
+  
+    
+/* top button */
+.arrow p{
+    font-size: 30px;
+    color: white;
+    padding-top: 20px ;
+    
+}
+.arrow{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #030303;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    
+}
+
+
+
+
+
+
+
+/* media querry */
+@media(max-width:1200px){
+    .navbar ul{
+        flex-wrap: wrap;
+    }
+    .img{
+        width: 80%;
+    }
+    .outer-div{
+        height: max-content;
+        flex-wrap: wrap;
+        padding: 100px 0px ;
+    }
+    .outer2{
+        height:max-content;
+gap: 50px;
+        flex-wrap: wrap;
+        padding: 50px 0px ;
+    }
+    .ser , .ser2{
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+    }
+    .outer3{
+        height: max-content;
+        flex-wrap: wrap;
+    }
+    .big{
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+    .uter3{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:700px){
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .navbar ul{
+      flex-direction: column;
+      align-items: center;
+      
+    
+      
+        
+        
+    }
+    ul a{
+        padding: 30px 0px ;
+        font-size: 20px;
+        visibility: hidden;
+        display: none;
+        padding: 10px 5px;
+     
+        
+    }
+    .you{
+        display: block;
+    }
+ 
+    #check:checked~ul a{
+        visibility: visible;
+        display: block;
+     
+    }
+
+        
+    
+    .heading , .topsearch , .head-contact{
+        font-size: 50px;
+        text-align: center;
+    }
+    .img{
+        width: 300px;
+        
+    }
+    .trend{
+        font-size: 40px;
+    }
+    .outer-div ,  .outer3{
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+
+    }
+    .outer2{
+        margin: 0 auto;
+        width: 100%;
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+    }
+    .inner2 , .inner3 , .inner4{
+        padding: 0px 0px;
+    }
+    .shoes{
+        font-size: 40px;
+    }
+    .heading{
+        font-size: 40px;
+
+    }
+    .ser , .ser2{
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+    }
+    .list , .list1{
+        width: 250px;
+        text-align: center;
+    }
+    form{
+        width: 300px;
+        margin: 0 auto;
+    }
+   .big{
+    flex-direction: column;
+    align-items: center;
+   }
+   .uter3{
+    flex-wrap: wrap;
+    height: max-content;
+
+   }
+   .ast{
+    flex-wrap: wrap;
+    height: max-content;
+    align-items: center;   
+   }
+}
+
